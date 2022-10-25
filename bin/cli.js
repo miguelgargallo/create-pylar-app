@@ -16,7 +16,7 @@ const repoName = process.argv[2];
 const gitCheckoutCommand = 'git clone --depth=1 https://github.com/miguelgargallo/create-pylar-app ${repoName}';
 
 console.log('Cloning repository with name ${repoName}');
-const gitCheckout = runCommand(gitCheckout);
+const gitCheckout = runCommand(gitCheckoutCommand);
 if (!gitCheckout) process.exit (code: -1);
 
 console.log("Congratulations! You're ready to go!");

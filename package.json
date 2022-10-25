@@ -1,6 +1,6 @@
 {
   "name": "create-pylar-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Pylar App is a Fresh, deno based rust app, provides a full customized login with postgresql secure login page.",
   "bin": "./bin/cli.js",
   "scripts": {
