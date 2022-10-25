@@ -17,7 +17,7 @@ const gitCheckoutCommand = 'git clone --depth=1 https://github.com/miguelgargall
 
 console.log('Cloning repository with name ${repoName}');
 const checkedOut = runCommand(gitCheckoutCommand);
-if (!checkedOut) process.exit(code: -1);
+if (!checkedOut) process.exit(-1);
 
 console.log("Congratulations! You're ready to go!");
 console.log('cd ${repoName} && ./runApp');
