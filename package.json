@@ -1,0 +1,29 @@
+{
+  "name": "create-pylar-app",
+  "version": "0.0.1",
+  "description": "Pylar App is a Fresh, deno based rust app, provides a full customized login with postgresql secure login page.",
+  "main": "runApp",
+  "scripts": {
+    "pylar": "./runApp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelgargallo/create-pylar-app.git"
+  },
+  "keywords": [
+    "pylar",
+    "fresh",
+    "deno",
+    "rust",
+    "app",
+    "login",
+    "postgresql",
+    "postgres"
+  ],
+  "author": "ITAMAESAN ORG & Miguel Gargallo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelgargallo/create-pylar-app/issues"
+  },
+  "homepage": "https://github.com/miguelgargallo/create-pylar-app#readme"
+}
